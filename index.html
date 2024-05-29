@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <!-- Animaciones CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Portafolio de Ileana Moreno</title>
+</head>
+<body>
+
+    <!--Barra de Navegación-->
+    <nav>
+        <h1>Ileana Moreno</h1>
+        <ul>
+            <li><a href="#acerca_de_mi" class="nav-link">Acerca de mí</a></li>
+            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+
+    <!--Sección Hero-->
+        <section class="hero" id="acerca_de_mi">
+            <img src="assets/images/imagen1.png" alt="womanintech" class="hero-img" loading="lazy">
+            <div class="bio animate__animated animate__shakeX">
+                <h2 class="bio-title">Acerca de mí</h2>
+                <p class="bio-text">
+                   Ileana Moreno, egresada del Instituto Tecnológico de Toluca de la carrera Ingeniería Mecatrónica con especialidad en automatización y control. Tengo experiencia en el sector alimenticio, automotriz y educativo.
+                </p>
+            </div>
+        </section>
+
+
+    <!--Acerca de mí-->
+       <section class="acerca_de_mi">
+        <h2>Más acerca de mí</h2>
+        <p>Actualmente, soy Administradora TI de la plataforma educativa del Colegio Loyola, Morelos, dando altas y bajas de usuarios, revisando funcionamiento de equipos y habilito permisos mediante una plataforma MDM para gestionar datos de equipos Apple.</p>
+        <p>También soy profesora de tecnologías, fundadora y coach de 3 equipos de robótica de alto rendimiento de diferentes categorías, desarrollando proyectos, además de construir y programar robots funcionales que cumplan ciertas tareas.</p>
+        <p>Los equipos han obtenido premios a nivel Nacional e Internacional, siendo reconocidos dentro de la comunidad de robotistas y dentro y fuera del estado de Morelos.</p>
+       </section>
+
+
+    <!--Sección Habilidades-->
+       <section class="habilidades" id="habilidades">
+        <h2 class="skill-header">Mis habilidades</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img src="assets/icons/arduino.png" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/html.png" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/css.png" alt="" loading="lazy" class="icon icon-card">
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img src="assets/icons/mosyle.png" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/apple.png" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/core_tools.png" alt="" loading="lazy" class="icon icon-card">
+                </div>
+            </div>
+       </section>
+
+
+
+
+
+
+    <!--Sección Proyectos-->
+    <section class="proyectos" id="proyectos">
+        <h2 class="projects-title">Algunos de mis proyectos recientes en HTML y CSS</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/pinterest.webp" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Clon de Pinterest</h3>
+                <p class="project-details">Clon de la página de Pinteres usando HTML y CSS</p>
+                <a href="#" target="_blank" class="project-link">Vamos a verlo!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/CV.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">C.V Digital</h3>
+                <p class="project-details">Aquí presento mi CV en una Página Web</p>
+                <a href="#" target="_blank" class="project-link">Vamos a verlo!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/bootstrap.jpeg" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Iniciando en Bootstrap</h3>
+                <p class="project-details">Este es mi primer proyecto en Bootstrap</p>
+                <a href="#" target="_blank" class="project-link">Vamos a verlo!</a>
+            </div>
+        </div>
+    </section>
+
+
+ 
+    <!--Sección Contacto-->
+    <!--Sección de Redes Sociales-->
+
+    <div class="sociales">
+        <a href="https://github.com/ilemoreno" target="_blank"><img src="assets/icons/github.gif" alt="GitHub" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.instagram.com/ile.moreno/" target="_blank"><img src="assets/icons/instagram.gif" alt="Instagram" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.linkedin.com/in/ileana-suzel-moreno-guerrero-992a08129/" target="_blank"><img src="assets/icons/linkedin.gif" alt="linkedin" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Botón de scroll-->
+
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/arriba.gif" class="socicon up-arrow">
+    </i>
+
+    <!--Sección Footer-->
+
+    <footer>
+
+        <p>Realizado con &#x2661; por <a href="https://www.linkedin.com/in/ileana-suzel-moreno-guerrero-992a08129/" target="_blank">Ileana Moreno</a></p>
+    </footer>
+
+
+        <!-- Website scripts -->
+        <script src="assets/js/app.js"></script>
+
+
+        <!-- Ion icons scripts -->
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+</body>
+</html>
